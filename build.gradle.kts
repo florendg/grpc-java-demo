@@ -25,7 +25,7 @@ dependencies {
     implementation("io.grpc:grpc-stub:1.34.0")
     implementation("javax.annotation:javax.annotation-api:1.3.2")
 
-    runtime("io.grpc:grpc-netty-shaded:1.34.0")
+    runtimeOnly("io.grpc:grpc-netty-shaded:1.34.0")
 
     testImplementation("junit:junit:4.13")
     testImplementation("io.grpc:grpc-testing:1.34.0")
